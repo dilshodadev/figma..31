@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800;900 &display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #AF68EA 0%, #6563E8 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  height: 850px;
+}
+
+.container {
+  width: 920px;
+  height: 510px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: start;
+  border-radius: 24px;
+  gap: 90px;
+  background: #FFF;
+  box-shadow: 0 20px 19px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+.container .dil1 {
+  padding-top: 75px;
+}
+.container .dil1 .dd {
+  transform: translateY(-435px);
+}
+.container .dil1 .ed {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.container .dil1 .ed1 {
+  position: absolute;
+  width: 191px;
+  transform: translateX(-485px);
+  padding-top: 130px;
+}
+.container .matn h1 {
+  color: #000;
+  padding: 62px 0 38px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .matn p {
+  width: 250px;
+  color: #525157;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+.container .matn .matn2 .d1 {
+  padding-bottom: 16px;
+}
+.container .matn .matn2 .d1 .d12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.container .matn .matn2 .d1 .dilshoda {
+  width: 351px;
+  height: 1px;
+  background: #E8E8E8;
+}
+.container .matn .matn2 .tenx {
+  padding-bottom: 16px;
+}
+.container .matn .matn2 .tenx .dilshoda {
+  width: 351px;
+  height: 1px;
+  background: #E8E8E8;
+}
+.container .matn .matn2 .tenx .tenx1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .matn .matn2 .tenx .tenx1 .ed10 {
+  transform: translateY(-7px);
+}
+.container .matn .matn2 .tenx .tenx1 p {
+  width: 260px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+.container .matn .matn2 .tenx p {
+  color: #525157;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.5%;
+  padding-bottom: 11px;
+}
